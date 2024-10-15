@@ -74,8 +74,15 @@
                     </div>
                     <div class="features">
                         <article>
-                            <a class="image"><img src="images/OTC_Tundraflux.JPG" alt="Tundra Flux" align="right" style="float:right; width: 150px;
-     								 height: 100px"/></a>
+                            <a class="image tundra-image" href="#">
+                                <img src="images/OTC_Tundraflux.JPG" alt="Tundra Flux"/>
+                            </a>
+                            .tundra-image img {
+                                width: 150px;
+                                height: auto; /* maintains aspect ratio */
+                                float: right;
+                            }
+                                                        
                             <div class="inner">
                                 <h4>Tundra Flux Database</h4>
                                 <p>As a core team member of the <a href="https://arcticflux.org/">Tundra Flux Database</a>, I manage and update a database of over 77,000 carbon dioxide and methane flux entries from 85 Arctic and alpine tundra sites. In our <a href="https://www.nature.com/articles/s41586-024-07274-7">Nature</a> paper, we show that a mean temperature increase of 1.4°C could lead to a 30% rise in ecosystem respiration, with soil conditions being key drivers.</p>
